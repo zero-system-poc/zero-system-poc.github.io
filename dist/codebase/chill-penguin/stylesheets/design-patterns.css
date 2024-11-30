@@ -1,0 +1,119 @@
+/* file: design-patterns.scss------------------------------------------------ */
+main > div,
+main > section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 48rem) {
+  main > div,
+main > section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  main > div,
+main > section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+main > section + section {
+  padding-top: 0;
+}
+
+main > .bgc\:blue + section,
+main > .bgc\:blue + div,
+main > div + .bgc\:blue,
+main > section + .bgc\:blue,
+main > .bgc\:white-smoke + section,
+main > .bgc\:white-smoke + div,
+main > div + .bgc\:white-smoke,
+main > section + .bgc\:white-smoke,
+main > .bgc\:eerie-black + section,
+main > .bgc\:eerie-black + div,
+main > div + .bgc\:eerie-black,
+main > section + .bgc\:eerie-black,
+main > .bgc\:silver + section,
+main > .bgc\:silver + div,
+main > div + .bgc\:silver,
+main > section + .bgc\:silver,
+main > .bgc\:yinmn-blue + section,
+main > .bgc\:yinmn-blue + div,
+main > div + .bgc\:yinmn-blue,
+main > section + .bgc\:yinmn-blue,
+main > .bgc\:onyx + section,
+main > .bgc\:onyx + div,
+main > div + .bgc\:onyx,
+main > section + .bgc\:onyx {
+  padding-top: 2rem;
+}
+@media screen and (min-width: 48rem) {
+  main > .bgc\:blue + section,
+main > .bgc\:blue + div,
+main > div + .bgc\:blue,
+main > section + .bgc\:blue,
+main > .bgc\:white-smoke + section,
+main > .bgc\:white-smoke + div,
+main > div + .bgc\:white-smoke,
+main > section + .bgc\:white-smoke,
+main > .bgc\:eerie-black + section,
+main > .bgc\:eerie-black + div,
+main > div + .bgc\:eerie-black,
+main > section + .bgc\:eerie-black,
+main > .bgc\:silver + section,
+main > .bgc\:silver + div,
+main > div + .bgc\:silver,
+main > section + .bgc\:silver,
+main > .bgc\:yinmn-blue + section,
+main > .bgc\:yinmn-blue + div,
+main > div + .bgc\:yinmn-blue,
+main > section + .bgc\:yinmn-blue,
+main > .bgc\:onyx + section,
+main > .bgc\:onyx + div,
+main > div + .bgc\:onyx,
+main > section + .bgc\:onyx {
+    padding-top: 3rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  main > .bgc\:blue + section,
+main > .bgc\:blue + div,
+main > div + .bgc\:blue,
+main > section + .bgc\:blue,
+main > .bgc\:white-smoke + section,
+main > .bgc\:white-smoke + div,
+main > div + .bgc\:white-smoke,
+main > section + .bgc\:white-smoke,
+main > .bgc\:eerie-black + section,
+main > .bgc\:eerie-black + div,
+main > div + .bgc\:eerie-black,
+main > section + .bgc\:eerie-black,
+main > .bgc\:silver + section,
+main > .bgc\:silver + div,
+main > div + .bgc\:silver,
+main > section + .bgc\:silver,
+main > .bgc\:yinmn-blue + section,
+main > .bgc\:yinmn-blue + div,
+main > div + .bgc\:yinmn-blue,
+main > section + .bgc\:yinmn-blue,
+main > .bgc\:onyx + section,
+main > .bgc\:onyx + div,
+main > div + .bgc\:onyx,
+main > section + .bgc\:onyx {
+    padding-top: 4rem;
+  }
+}
+
+.zs-hightlight-blue {
+  box-shadow: 0 0 0.3125rem 0.25rem #3169b2 !important;
+}
+
+.zs-hightlight-yellow {
+  box-shadow: 0 0 0.3125rem 0.25rem #f4c026 !important;
+}
+
+.zs-hightlight-red {
+  box-shadow: 0 0 0.3125rem 0.25rem #ab1e23 !important;
+}
